@@ -1,0 +1,95 @@
+*{
+  transition: all 0.3s;
+}
+.container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+form{
+  display: flex;
+}
+.input-group label {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  color: #555;
+}
+
+.input-group input {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn{
+  padding: 5px 10px;
+  background-color: #ff1e1e;
+  color: white;
+  border: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #840000;
+}
+button:hover {
+  background-color: #177e1d;
+}
+
+.person {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7f3fe;
+  border-left: 5px solid #2196f3;
+  border-radius: 5px;
+}
+
+.person span {
+  height: 100%;
+  margin-left: 10px;
+  color: #555;
+}
+.btnSpan{
+  justify-self: flex-end;
+  height: 100%;
+}
+
+.error {
+  display: block !important;
+  color: red;
+  background-color: #fdd;
+  border: 1px solid red;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.success {
+  display: block !important;
+  color: green;
+  background-color: #dfd;
+  border: 1px solid green;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
